@@ -1,0 +1,229 @@
+{
+  "timestamp": "2026-10-02T07:01:46.774969+00:00",
+  "reproducibility": {
+    "model_name_or_path": "vennify/t5-base-grammar-correction",
+    "device": "cpu",
+    "random_seed": 42,
+    "num_beams": 4,
+    "max_input_length": 128,
+    "dataset_path": "C:\\Users\\tuhin\\Documents\\Projects\\grammar-error-detection-correction\\data\\demo\\demo_pairs.jsonl",
+    "num_evaluated_samples": 25
+  },
+  "metrics": {
+    "corpus_gleu": 72.2,
+    "baseline_source_gleu": 0.1,
+    "gleu_improvement": 72.1,
+    "corpus_bleu": 84.14,
+    "exact_match_accuracy_percent": 68.0,
+    "token_precision_percent": 85.0,
+    "token_recall_percent": 68.0,
+    "token_f0_5_score_percent": 80.95,
+    "edit_counts": {
+      "true_positives": 17,
+      "false_positives": 3,
+      "false_negatives": 8
+    }
+  },
+  "sample_results": [
+    {
+      "id": "demo-001",
+      "source": "She go to college every day.",
+      "target": "She goes to college every day.",
+      "hypothesis": "She goes to college every day.",
+      "gleu": 1.0,
+      "is_exact_match": true
+    },
+    {
+      "id": "demo-002",
+      "source": "He have two brothers.",
+      "target": "He has two brothers.",
+      "hypothesis": "He has two brothers.",
+      "gleu": 1.0,
+      "is_exact_match": true
+    },
+    {
+      "id": "demo-003",
+      "source": "They was playing cricket.",
+      "target": "They were playing cricket.",
+      "hypothesis": "They were playing cricket.",
+      "gleu": 1.0,
+      "is_exact_match": true
+    },
+    {
+      "id": "demo-004",
+      "source": "I went to the market yesterday.",
+      "target": "I went to the market yesterday.",
+      "hypothesis": "I went to the market yesterday.",
+      "gleu": 1.0,
+      "is_exact_match": true
+    },
+    {
+      "id": "demo-005",
+      "source": "She is a good student.",
+      "target": "She is a good student.",
+      "hypothesis": "She is a good student.",
+      "gleu": 1.0,
+      "is_exact_match": true
+    },
+    {
+      "id": "demo-006",
+      "source": "I have went to the dentist last week.",
+      "target": "I went to the dentist last week.",
+      "hypothesis": "I went to the dentist last week.",
+      "gleu": 1.0,
+      "is_exact_match": true
+    },
+    {
+      "id": "demo-007",
+      "source": "He is interested on learning data science.",
+      "target": "He is interested in learning data science.",
+      "hypothesis": "He is interested in learning data science.",
+      "gleu": 1.0,
+      "is_exact_match": true
+    },
+    {
+      "id": "demo-008",
+      "source": "This is an useful book for students.",
+      "target": "This is a useful book for students.",
+      "hypothesis": "This is an useful book for students.",
+      "gleu": 0.0,
+      "is_exact_match": false
+    },
+    {
+      "id": "demo-009",
+      "source": "I bought a apple from the grocery store.",
+      "target": "I bought an apple from the grocery store.",
+      "hypothesis": "I bought an apple from the grocery store.",
+      "gleu": 1.0,
+      "is_exact_match": true
+    },
+    {
+      "id": "demo-010",
+      "source": "There is many problems with this approach.",
+      "target": "There are many problems with this approach.",
+      "hypothesis": "There are many problems with this approach.",
+      "gleu": 1.0,
+      "is_exact_match": true
+    },
+    {
+      "id": "demo-011",
+      "source": "She do not understands the lesson.",
+      "target": "She does not understand the lesson.",
+      "hypothesis": "She does not understand the lesson.",
+      "gleu": 1.0,
+      "is_exact_match": true
+    },
+    {
+      "id": "demo-012",
+      "source": "We was surprised by the sudden announcement.",
+      "target": "We were surprised by the sudden announcement.",
+      "hypothesis": "We were surprised by the sudden announcement.",
+      "gleu": 1.0,
+      "is_exact_match": true
+    },
+    {
+      "id": "demo-013",
+      "source": "The cat sat on the mat peacefully.",
+      "target": "The cat sat on the mat peacefully.",
+      "hypothesis": "The cat sat peacefully on the mat.",
+      "gleu": 0.0037,
+      "is_exact_match": false
+    },
+    {
+      "id": "demo-014",
+      "source": "He did not saw the warning sign on the door.",
+      "target": "He did not see the warning sign on the door.",
+      "hypothesis": "He did not see the warning sign on the door.",
+      "gleu": 1.0,
+      "is_exact_match": true
+    },
+    {
+      "id": "demo-015",
+      "source": "She has been working here since three years.",
+      "target": "She has been working here for three years.",
+      "hypothesis": "She has been working here for three years.",
+      "gleu": 1.0,
+      "is_exact_match": true
+    },
+    {
+      "id": "demo-016",
+      "source": "Although it was raining, but we still went for a walk.",
+      "target": "Although it was raining, we still went for a walk.",
+      "hypothesis": "Although it was raining, we still went for a walk.",
+      "gleu": 1.0,
+      "is_exact_match": true
+    },
+    {
+      "id": "demo-017",
+      "source": "Each of the boys have completed their homework.",
+      "target": "Each of the boys has completed his homework.",
+      "hypothesis": "Each of the boys have completed their homework.",
+      "gleu": 0.0,
+      "is_exact_match": false
+    },
+    {
+      "id": "demo-018",
+      "source": "Natural language processing is a branch of artificial intelligence.",
+      "target": "Natural language processing is a branch of artificial intelligence.",
+      "hypothesis": "Natural language processing is a branch of artificial intelligence.",
+      "gleu": 1.0,
+      "is_exact_match": true
+    },
+    {
+      "id": "demo-019",
+      "source": "The news are very encouraging today.",
+      "target": "The news is very encouraging today.",
+      "hypothesis": "The news are very encouraging today.",
+      "gleu": 0.0,
+      "is_exact_match": false
+    },
+    {
+      "id": "demo-020",
+      "source": "I prefer tea than coffee in morning.",
+      "target": "I prefer tea to coffee in the morning.",
+      "hypothesis": "I prefer tea than coffee in the morning.",
+      "gleu": 0.0,
+      "is_exact_match": false
+    },
+    {
+      "id": "demo-021",
+      "source": "He run faster than anyone in the team.",
+      "target": "He runs faster than anyone on the team.",
+      "hypothesis": "He runs faster than anyone in the team.",
+      "gleu": 0.0,
+      "is_exact_match": false
+    },
+    {
+      "id": "demo-022",
+      "source": "The children plays in the park every evening.",
+      "target": "The children play in the park every evening.",
+      "hypothesis": "The children play in the park every evening.",
+      "gleu": 1.0,
+      "is_exact_match": true
+    },
+    {
+      "id": "demo-023",
+      "source": "Neither of the options were acceptable.",
+      "target": "Neither of the options was acceptable.",
+      "hypothesis": "Neither of the options were acceptable.",
+      "gleu": 0.0,
+      "is_exact_match": false
+    },
+    {
+      "id": "demo-024",
+      "source": "She suggested me to apply for the scholarship.",
+      "target": "She suggested that I apply for the scholarship.",
+      "hypothesis": "She suggested I apply for the scholarship.",
+      "gleu": 0.613,
+      "is_exact_match": false
+    },
+    {
+      "id": "demo-025",
+      "source": "We are looking forward to meet you tomorrow.",
+      "target": "We are looking forward to meeting you tomorrow.",
+      "hypothesis": "We are looking forward to meeting you tomorrow.",
+      "gleu": 1.0,
+      "is_exact_match": true
+    }
+  ]
+}

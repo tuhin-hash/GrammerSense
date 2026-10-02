@@ -1,0 +1,25 @@
+{"id": "demo-001", "source": "She go to college every day.", "target": "She goes to college every day.", "error_type": "Subject-Verb Agreement", "verification_tier": "DIRECTLY_IDENTIFIED"}
+{"id": "demo-002", "source": "He have two brothers.", "target": "He has two brothers.", "error_type": "Subject-Verb Agreement", "verification_tier": "DIRECTLY_IDENTIFIED"}
+{"id": "demo-003", "source": "They was playing cricket.", "target": "They were playing cricket.", "error_type": "Subject-Verb Agreement", "verification_tier": "DIRECTLY_IDENTIFIED"}
+{"id": "demo-004", "source": "I went to the market yesterday.", "target": "I went to the market yesterday.", "error_type": "None", "verification_tier": "CORRECT"}
+{"id": "demo-005", "source": "She is a good student.", "target": "She is a good student.", "error_type": "None", "verification_tier": "CORRECT"}
+{"id": "demo-006", "source": "I have went to the dentist last week.", "target": "I went to the dentist last week.", "error_type": "Verb Tense", "verification_tier": "DIRECTLY_IDENTIFIED"}
+{"id": "demo-007", "source": "He is interested on learning data science.", "target": "He is interested in learning data science.", "error_type": "Preposition", "verification_tier": "DIRECTLY_IDENTIFIED"}
+{"id": "demo-008", "source": "This is an useful book for students.", "target": "This is a useful book for students.", "error_type": "Article / Determiner", "verification_tier": "DIRECTLY_IDENTIFIED"}
+{"id": "demo-009", "source": "I bought a apple from the grocery store.", "target": "I bought an apple from the grocery store.", "error_type": "Article / Determiner", "verification_tier": "DIRECTLY_IDENTIFIED"}
+{"id": "demo-010", "source": "There is many problems with this approach.", "target": "There are many problems with this approach.", "error_type": "Subject-Verb Agreement", "verification_tier": "DIRECTLY_IDENTIFIED"}
+{"id": "demo-011", "source": "She do not understands the lesson.", "target": "She does not understand the lesson.", "error_type": "Subject-Verb Agreement", "verification_tier": "DIRECTLY_IDENTIFIED"}
+{"id": "demo-012", "source": "We was surprised by the sudden announcement.", "target": "We were surprised by the sudden announcement.", "error_type": "Subject-Verb Agreement", "verification_tier": "DIRECTLY_IDENTIFIED"}
+{"id": "demo-013", "source": "The cat sat on the mat peacefully.", "target": "The cat sat on the mat peacefully.", "error_type": "None", "verification_tier": "CORRECT"}
+{"id": "demo-014", "source": "He did not saw the warning sign on the door.", "target": "He did not see the warning sign on the door.", "error_type": "Verb Tense", "verification_tier": "DIRECTLY_IDENTIFIED"}
+{"id": "demo-015", "source": "She has been working here since three years.", "target": "She has been working here for three years.", "error_type": "Preposition", "verification_tier": "DIRECTLY_IDENTIFIED"}
+{"id": "demo-016", "source": "Although it was raining, but we still went for a walk.", "target": "Although it was raining, we still went for a walk.", "error_type": "Redundancy / Conjunction", "verification_tier": "INFERRED"}
+{"id": "demo-017", "source": "Each of the boys have completed their homework.", "target": "Each of the boys has completed his homework.", "error_type": "Subject-Verb Agreement", "verification_tier": "DIRECTLY_IDENTIFIED"}
+{"id": "demo-018", "source": "Natural language processing is a branch of artificial intelligence.", "target": "Natural language processing is a branch of artificial intelligence.", "error_type": "None", "verification_tier": "CORRECT"}
+{"id": "demo-019", "source": "The news are very encouraging today.", "target": "The news is very encouraging today.", "error_type": "Subject-Verb Agreement", "verification_tier": "DIRECTLY_IDENTIFIED"}
+{"id": "demo-020", "source": "I prefer tea than coffee in morning.", "target": "I prefer tea to coffee in the morning.", "error_type": "Preposition / Article", "verification_tier": "INFERRED"}
+{"id": "demo-021", "source": "He run faster than anyone in the team.", "target": "He runs faster than anyone on the team.", "error_type": "Subject-Verb Agreement", "verification_tier": "DIRECTLY_IDENTIFIED"}
+{"id": "demo-022", "source": "The children plays in the park every evening.", "target": "The children play in the park every evening.", "error_type": "Subject-Verb Agreement", "verification_tier": "DIRECTLY_IDENTIFIED"}
+{"id": "demo-023", "source": "Neither of the options were acceptable.", "target": "Neither of the options was acceptable.", "error_type": "Subject-Verb Agreement", "verification_tier": "DIRECTLY_IDENTIFIED"}
+{"id": "demo-024", "source": "She suggested me to apply for the scholarship.", "target": "She suggested that I apply for the scholarship.", "error_type": "Grammatical Structure", "verification_tier": "INFERRED"}
+{"id": "demo-025", "source": "We are looking forward to meet you tomorrow.", "target": "We are looking forward to meeting you tomorrow.", "error_type": "Gerund / Infinitive", "verification_tier": "DIRECTLY_IDENTIFIED"}

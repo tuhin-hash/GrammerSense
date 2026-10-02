@@ -1,0 +1,13 @@
+{
+  "random_seed": 42,
+  "total_unique_pairs": 772,
+  "train_samples": 540,
+  "val_samples": 115,
+  "test_samples": 117,
+  "data_leakage_verified_zero": true,
+  "split_ratios": {
+    "train": 0.7,
+    "val": 0.15,
+    "test": 0.15
+  }
+}
